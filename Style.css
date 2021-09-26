@@ -4,6 +4,7 @@ body {
 }
 
 .header__head {
+    z-index: -2;
     /* border: .5px solid white; */
 }
 
@@ -63,4 +64,9 @@ body {
 
 .down {
     transform: scale(.5);
+}
+
+.work__title {
+    font-weight: 700;
+    color: #FFFFFF;
 }
