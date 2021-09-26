@@ -60,3 +60,7 @@ body {
     margin-top: -41%;
     margin-left: -14%;
 }
+
+.down {
+    transform: scale(.5);
+}
