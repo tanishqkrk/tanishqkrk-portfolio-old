@@ -27,12 +27,13 @@ body {
 .hero__title--title {
     font-weight: 900;
     color: #FFFFFF;
+    font-size: 50px;
 }
 
 .hero__title--des {
     /* font-family: 'montserrat', sans-serif; */
     font-weight: 100;
-    font-size: 16px;
+    font-size: 15px;
     color: #FFFFFF;
 }
 
@@ -41,21 +42,21 @@ body {
 }
 
 .block-red {
-    width: 100px;
-    height: 100px;
+    width: 80%;
+    height: 20%;
     background-color: #DA0037;
     z-index: -1;
     position: absolute;
-    margin-top: -30px;
-    margin-left: 115px;
+    margin-top: -25%;
+    margin-left: 47%;
 }
 
 .block-white {
-    width: 100px;
-    height: 120px;
+    width: 60%;
+    height: 20%;
     background-color: #444444;
     z-index: 1;
     position: absolute;
-    margin-top: 450px;
-    margin-left: .2px;
+    margin-top: -41%;
+    margin-left: -14%;
 }
