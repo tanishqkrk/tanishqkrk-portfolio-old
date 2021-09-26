@@ -25,6 +25,10 @@ body {
     transform: scale(1.2);
 }
 
+.hero__img--img-desk {
+    display: none;
+}
+
 .hero__title--title {
     font-weight: 900;
     color: #FFFFFF;
@@ -77,3 +81,10 @@ body {
     width: 380px;
     object-fit: cover;
 } */
+
+.work__type {
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+}
