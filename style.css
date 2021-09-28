@@ -85,6 +85,15 @@ body {
     flex-direction: column;
 }
 
+.work__img {
+    transition: .5s;
+}
+
+.work__img:hover {
+    transform: scale(.97);
+    opacity: .4;
+}
+
 .experience__timeline--line {
     width: 10%;
     height: 200px;
