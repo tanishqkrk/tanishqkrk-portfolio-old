@@ -1,6 +1,6 @@
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 body {
     font-family: 'montserrat', sans-serif;
@@ -33,7 +33,7 @@ body {
 }
 
 .section--light {
-    background-color: #FFFFF;
+    background-color: #FFFFFF;
 }
 
 .section--light>.section__title {
@@ -57,8 +57,22 @@ body {
     flex-direction: column;
 }
 
-.work__img--sec {
-    border: 1px solid red;
+.experience__timeline--line {
+    width: 10%;
+    height: 200px;
+    background-color: black;
+}
+
+.experience__job--description {
+    text-align: right;
+}
+
+.experience__intern--description {
+    text-align: left;
+}
+
+.experience__free--description {
+    text-align: right;
 }
 
 .section__title--hero {
