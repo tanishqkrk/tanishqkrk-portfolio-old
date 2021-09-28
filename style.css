@@ -1,6 +1,8 @@
-/* html {
+html {
     scroll-behavior: smooth;
-} */
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     font-family: 'montserrat', sans-serif;
@@ -26,6 +28,7 @@ body {
 
 .section--dark {
     background-color: #171717;
+    width: 100%;
 }
 
 .section--dark>.section__title {
@@ -34,6 +37,7 @@ body {
 
 .section--light {
     background-color: #FFFFFF;
+    width: 100%;
 }
 
 .section--light>.section__title {
@@ -45,6 +49,30 @@ body {
     font-size: 40px;
     font-weight: 700;
 }
+
+.header__container {
+    background-color: #171717;
+}
+
+.header__element {
+    color: #FFFFFF;
+    transition: .5s;
+}
+
+.header__element:hover {
+    text-decoration: none;
+    color: #b1b1b1;
+}
+
+.header__container__element {
+    text-align: center;
+    text-decoration: none;
+}
+
+.section__title--hero {
+    font-size: 90px;
+}
+
 
 .hero__banner__img {
     width: 100%;
@@ -80,8 +108,8 @@ body {
     border-radius: 25px;
 }
 
-.section__title--hero {
-    font-size: 90px;
+.footer__element {
+    text-align: center;
 }
 
 

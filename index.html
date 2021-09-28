@@ -17,13 +17,19 @@
 
 <body>
     <section class="header">
-        <div class="container">
+        <div class="container-fluid header__container p-3">
             <div class="row">
-                <div class="col-md-4">
-                    Name
+                <div class="col-md-4 header__container__element header__container__element--name">
+                    <a href="#" class="header__element">Tanishqkrk</a>
                 </div>
-                <div class="col-md-8">
-                    menu
+                <div class="col-md-2 header__container__element header__container__element--work">
+                    <a href="#" class="header__element">Work</a>
+                </div>
+                <div class="col-md-2 header__container__element header__container__element--resume">
+                    <a href="path_to_file" download="proposed_file_name" class="header__element">Download resume</a>
+                </div>
+                <div class="col-md-4 header__container__element header__container__element--contact">
+                    <a href="#section--contact" class="header__element">Contact</a>
                 </div>
             </div>
 
@@ -142,28 +148,27 @@
             <div class="section__title ">
                 Get in touch
             </div>
-            <div class="section__content section--contact m-3 ">
+            <div class="section__content section--contact m-3" id="section--contact">
                 <div class="container section__contact-form p-5">
-                    <div class="row align-items-center ">
+                    <div class="row align-items-center">
+                        <!-- height: 420px -->
                         <img src="./assests/contact/mail.png" alt="" class="col-md-6">
                         <div class="container-fluid p-0 col-md-6">
                             <form action="" class="container col-md-12 align-items-center">
-                                <div class="col md-3">
+                                <div class="col md-3 m-2">
                                     <label for="exampleInputEmail1" class="form-label">Name</label>
                                     <input type="text" class="form-control" id="exampleInputEmail1">
                                 </div>
-                                <div class="col md-3">
+                                <div class="col md-3 m-2">
                                     <label for="exampleInputEmail1" class="form-label">Email address</label>
                                     <input type="email" class="form-control" id="exampleInputEmail1"
                                         aria-describedby="emailHelp">
                                 </div>
-                                <div class="col md-5">
+                                <div class="col md-5 m-2">
                                     <label for="exampleInputEmail1" class="form-label">Message</label>
                                     <input type="text" class="form-control" id="exampleInputEmail1">
                                 </div>
-                                <div>
-                                    <button type="submit" class="btn btn-primary ">Submit</button>
-                                </div>
+                                <button type="submit" class="btn btn-primary m-2">Submit</button>
                             </form>
                         </div>
                     </div>
@@ -176,16 +181,25 @@
 
     </section>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="col-md">
-                Name
+    <footer class="footer mt-5">
+        <div class="container-fluid ">
+            <div class="col-md footer__name p-1">
+                <h1 class="footer__name--name footer__element">
+                    Tanishq Kr. Kaushal
+                </h1>
             </div>
-            <div class="col-md">
-                SM
+            <div class="col-md footer__socials d-flex justify-content-center align-items-center p-2">
+                <a href="https://www.instagram.com/tanishqkrk/" target="_blank" class="footer__social"><img
+                        src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" /></a>
+                <a href="https://twitter.com/TanishqKaushal" target="_blank" class="footer__social"><img
+                        src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png" /></a>
+                <a href="https://www.linkedin.com/in/tanishq-kr-kaushal-835b0221b/" target="_blank"
+                    class="footer__social"><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" /></a>
             </div>
-            <div class="col-md">
-                Copyright
+            <div class="col-md footer__copyright p-2">
+                <h5 class="footer__copyright--text footer__element">
+                    2021 | Made with ❤️ by Tanishq Kr. Kaushal
+                </h5>
             </div>
         </div>
     </footer>
