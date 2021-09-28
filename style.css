@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'montserrat', sans-serif;
 }
@@ -53,9 +57,15 @@ body {
     flex-direction: column;
 }
 
+.work__img--sec {
+    border: 1px solid red;
+}
+
 .section__title--hero {
     font-size: 90px;
 }
+
+
 
 .section__content {
     /* border: 1px solid blue; */
