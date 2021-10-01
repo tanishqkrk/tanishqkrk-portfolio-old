@@ -14,19 +14,27 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/monument-extended" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <section class="header">
         <div class="container-fluid header__container p-4">
-            <div class="row">
+            <div class="row ">
                 <div class="col-md-3 header__container__element header__container__element--name">
                     <a href="#" class="header__element">Tanishqkrk</a>
                 </div>
                 <div class="col-md-6 header__container__menuitems d-flex justify-content-center">
                     <div class=" header__container__element header__container__element--work">
-                        <a href="#" class="header__element">Work</a>
+                        <a href="#work" class="header__element">Work</a>
+                    </div>
+                    <div class=" header__container__element header__container__element--work">
+                        <a href="#skills" class="header__element">Skills</a>
+                    </div>
+                    <div class=" header__container__element header__container__element--work">
+                        <a href="#experience" class="header__element">Experience</a>
                     </div>
                     <div class=" header__container__element header__container__element--resume">
                         <a href="path_to_file" download="proposed_file_name" class="header__element">Download
@@ -42,118 +50,122 @@
     </section>
 
     <section class="content">
+        <div class="container section section-land section--dark">
+            <div class="justify-content-center ">
+                <h1 class="col-md-12 section__land-element pt-4 pb-4">
+                    Design.
+                </h1>
+                <h1 class="col-md-12 section__land-element pt-4 pb-4">
+                    Create.
+                </h1>
+                <h1 class="col-md-12 section__land-element pt-4 pb-4">
+                    Attract.
+                </h1>
+            </div>
+        </div>
         <div class="section section--hero section--light">
-            <div class="row container justify-content-center">
-                <div class="hero__banner col-md-4">
-                    <img class="hero__banner__img" src="./assests/hero/hero-img.jpg" alt="">
-                </div>
-                <div class="hero__details col-md-12">
+            <div class="row container-fluid">
+                <div class="hero__details col-md-8">
                     <div class="section__title section__title--hero">Hey There! I'm Tanishq Kr. Kaushal</div>
                     <div class="section__subtitle section__subtitle--hero">Graphics Designer | Visual Artist | 4+ Years
                         of Experience </div>
                 </div>
+                <div class="hero__banner col-md-3">
+                    <img class="hero__banner__img" src="./assests/hero/hero-img.jpg" alt="">
+                </div>
             </div>
 
         </div>
-        <div class="section section--dark">
-            <div class="section__title ">
-                Work
-            </div>
-            <div class="section__content section--work">
-                <div class="container section__content--gallery ">
-                    <div class="row align-items-center">
-                        <div class="container col-md-4 work__img--sec1 ">
+        <div class="section section--dark container" id="work">
+            <div class="row">
+                <div class="col-md-9 section__content section--work">
+                    <div class="section__content--gallery ">
+                        <div class="work__img-logo work--type">
                             <a href="#"><img src="./assests/work/Stallion 1 a.png" alt=""
-                                    class="col-md-12 section__work--img work__img m-3"></a>
+                                    class="section__work--img-logo work__img">
+                                <p class="work__text-logo  work__text">Logos</p>
+                            </a>
+                        </div>
 
+                        <div class="work__img-vector  work--type">
                             <a href="#"><img src="./assests/work/kuhana 4.png" alt=""
-                                    class="col-md-12 section__work--img work__img m-3"></a>
+                                    class=" section__work--img-vector work__img ">
+                                <p class="work__text-vector work__text">Vectors</p>
+                            </a>
                         </div>
-                        <div class="container col-md-4 work__img--sec1">
+
+                        <div class="work__img-poster work--type">
                             <a href="#"><img src="./assests/work/hustle smol.png" alt=""
-                                    class="col-md-12 section__work--img work__img m-3"></a>
-                            <a href="#"><img src="./assests/work/minimalist landscape desktop.png" alt=""
-                                    class="col-md-12 section__work--img work__img m-3"></a>
+                                    class=" section__work--img-poster work__img ">
+                                <p class="work__text-poster work__text">Posters</p>
+                            </a>
                         </div>
-                        <div class="container col-md-4 work__img--sec1 ">
+
+                        <div class="work__img-wallpaper work--type d-flex align-self-center">
+                            <a href="#"><img src="./assests/work/minimalist landscape desktop.png" alt=""
+                                    class="section__work--img-wallpaper work__img ">
+                                <p class="work__text-wallpaper work__text">Wallpapers</p>
+                            </a>
+
+                        </div>
+                        <div class="work__img-magazine  work--type">
                             <a href="#"><img src="./assests/work/1. Cover page.jpg" alt=""
-                                    class="col-md-12 section__work--img work__img"></a>
+                                    class="section__work--img-magazine work__img ">
+                                <p class="work__text-magazine work__text">Magazines</p>
+                            </a>
                         </div>
                     </div>
                 </div>
+                <div
+                    class=" col-md-3 section__title d-flex align-self-center section__content--title justify-content-center">
+                    Work
+                </div>
+
             </div>
         </div>
-        <div class="section section--light">
-            <div class="section__title ">
-                Experience
-            </div>
-            <div class="section__content section--experience ">
-                <!-- Timeline -->
-                <div class="container-fluid section__experience__section">
-                    <div class="experience__row1 container row">
-                        <div class="col-md-5 experience__job">
+
+        <div class="section section--light container section__experience pt-5" id="experience">
+            <div class="row justify-content-between ">
+                <div class="col-md-5 section__title d-flex align-self-center ">
+                    Experience
+                </div>
+                <div class="col-md-7 section__content section--experience ">
+                    <!-- Timeline -->
+                    <div class="container-fluid section__experience__section">
+                        <div class="experience__job">
                             <h3 class="experience_job--heading">
-                                Cornerstones
+                                Cornerstones India
                             </h3>
                             <p class="experience__job--description">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit.
+                                (August 2021 - Present) <br>
+                                Graphic designing mentor
                             </p>
                         </div>
-                        <div class="col-md-1 p-0 m-0 ">
-                            <div class=" experience__timeline--line ">
-
-                            </div>
-                        </div>
-                        <div class="col-md-5">
-
-                        </div>
-                    </div>
-                    <div class="experience__row1 container row">
-                        <div class="col-md-5 experience__intern">
-
-                        </div>
-                        <div class="col-md-1 p-0">
-                            <div class=" experience__timeline--line">
-
-                            </div>
-                        </div>
-                        <div class="col-md-5">
+                        <div class="experience__intern">
                             <h3 class="experience_intern--heading">
-                                Cornerstones
+                                Callous
                             </h3>
                             <p class="experience__intern--description">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit.
+                                May 2021 - June 2021 <br>
+                                Graphic designing intern
                             </p>
                         </div>
-                    </div>
-                    <div class="experience__row1 container row">
-                        <div class="col-md-5 experience__free">
+                        <div class="experience__free experience__free">
                             <h3 class="experience_free--heading">
-                                Cornerstones
+                                Freelancing
                             </h3>
                             <p class="experience__free--description">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit.
+                                4+ Years of experience in freelancing
                             </p>
-                        </div>
-                        <div class="col-md-1 p-0">
-                            <div class="experience__timeline--line">
-
-                            </div>
-                        </div>
-                        <div class="col-md-5">
-
                         </div>
                     </div>
                 </div>
 
             </div>
         </div>
-        <div class="section section--dark">
-            <div id="design" class="design">
-                <h1 class="design__can section__title ">
-                    What can I design?
-                </h1>
-                <div class="design__skills">
+        <div class="continer section section--dark p-5" id="skills">
+            <div class="row ">
+                <div class="col-md-6 design__skills">
                     <p class="design__logo design__skill">
                         Logo
                     </p>
@@ -191,46 +203,59 @@
                         Business cards
                     </p>
                 </div>
-                <div class="design__lotmore">
-                    <p class="design__lotmore--text">
-                        And a lot more..!
-                    </p>
+                <div class="col-md-5 design d-flex align-self-center justify-content-center ">
+                    <h1 class="design__can section__title ">
+                        What can I design?
+                    </h1>
                 </div>
+
 
             </div>
         </div>
-        <div class="section section--light">
-            <div class="section__title ">
-                Get in touch
-            </div>
-            <div class="section__content section--contact m-3" id="section--contact">
-                <div class="container section__contact-form p-5">
-                    <div class="row align-items-center">
-                        <!-- height: 420px -->
-                        <img src="./assests/contact/mail.png" alt="" class="col-md-6">
-                        <div class="container-fluid p-0 col-md-6">
-                            <form action="" class="container col-md-12 align-items-center">
-                                <div class="col md-3 m-2">
-                                    <label for="exampleInputEmail1" class="form-label">Name</label>
-                                    <input type="text" class="form-control" id="exampleInputEmail1">
-                                </div>
-                                <div class="col md-3 m-2">
-                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp">
-                                </div>
-                                <div class="col md-5 m-2">
-                                    <label for="exampleInputEmail1" class="form-label">Message</label>
-                                    <input type="text" class="form-control" id="exampleInputEmail1">
-                                </div>
-                                <button type="submit" class="btn btn-primary m-2">Submit</button>
-                            </form>
-                        </div>
+
+
+        <div class="container-fluid section section--light section__contact p-5" id="section--contact">
+            <div class="row ">
+                <div class="col-md-6 section__title   d-flex align-self-center justify-content-center">
+                    Get in touch
+                </div>
+                <div class="col-md-6 contact__content ">
+                    <div class="contact__content--phone">
+                        <h4 class="contact__content-title">Phone</h4>
+                        <p class="contact__content-subtitle">+917292038205</p>
+                    </div>
+                    <div class="contact__content--email">
+                        <h4 class="contact__content-title">Email</h4>
+                        <p class="contact__content-subtitle">tanishqkrk@gmail.com</p>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrhVSqtQxmMpCkkBMqJJrrLzMtkvMgCBqDCkTHZzpQTJXPbdNNhRRcTJDkNTmSffQccnwg"
+                            target="_blank"><img src="https://img.icons8.com/color/48/000000/gmail-new.png "
+                                class="contact-icon" /></a>
+                        <a href="https://www.instagram.com/tanishqkrk/" target="_blank"><img
+                                src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
+                                class="contact-icon" /></a>
+                        <a href="https://twitter.com/TanishqKaushal/" target="_blank"><img
+                                src="https://img.icons8.com/color/48/000000/twitter--v1.png" /></a>
+                        <a href="https://github.com/tanishqkrk/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="contact-icon" x="0px" y="0px" width="40" height="40" viewBox="0 0 172 172"
+                                style=" fill:#000000;">
+                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                    text-anchor="none" style="mix-blend-mode: normal">
+                                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                                    <g fill="#ffffff">
+                                        <path
+                                            d="M61.20104,161.11584c2.44584,-1.05264 4.15896,-3.48472 4.15896,-6.31584v-18.576c0,-0.67768 0.05504,-1.38288 0.14104,-2.0984c-0.04816,0.01376 -0.09288,0.02408 -0.14104,0.0344c0,0 -10.32,0 -12.384,0c-5.16,0 -9.632,-2.064 -11.696,-6.192c-2.408,-4.472 -3.44,-12.04 -9.632,-16.168c-1.032,-0.688 -0.344,-1.72 1.72,-1.72c2.064,0.344 6.536,3.096 9.288,6.88c3.096,3.784 6.192,6.88 11.696,6.88c8.55528,0 13.1408,-0.43 15.89968,-1.9092c3.21296,-4.77816 7.66088,-8.4108 12.30832,-8.4108v-0.086c-19.49792,-0.62608 -31.95416,-7.10704 -37.754,-17.114c-12.6076,0.14448 -23.58464,1.3932 -29.84888,2.43208c-0.19952,-1.12488 -0.37152,-2.25664 -0.51944,-3.39528c6.18168,-1.01824 16.65992,-2.22568 28.7068,-2.45616c-0.38528,-0.94944 -0.71896,-1.92296 -1.00104,-2.92056c-12.07784,-0.61232 -22.50104,-0.13416 -28.16328,0.33368c-0.0688,-1.14208 -0.16168,-2.28072 -0.17544,-3.43656c5.67256,-0.4644 15.81368,-0.9288 27.58192,-0.38184c-0.27176,-1.72 -0.4472,-3.47784 -0.4472,-5.30792c0,-5.848 2.064,-12.04 5.848,-17.2c-1.72,-5.848 -4.128,-18.232 0.688,-22.704c9.288,0 15.824,4.472 18.92,7.224c5.84456,-2.41144 12.38056,-3.78744 19.60456,-3.78744c7.224,0 13.76,1.376 19.264,3.784c3.096,-2.752 9.632,-7.224 18.92,-7.224c5.16,4.816 2.408,17.2 0.688,22.704c3.784,5.16 5.848,11.008 5.504,17.2c0,1.66496 -0.1548,3.27144 -0.3784,4.84696c12.03656,-0.59168 22.45288,-0.11696 28.22176,0.35088c-0.00688,1.15928 -0.11352,2.29104 -0.17544,3.43656c-5.74824,-0.47472 -16.426,-0.9632 -28.75496,-0.30616c-0.30616,1.15584 -0.67768,2.28072 -1.118,3.3712c12.19824,0.15824 22.9276,1.33816 29.40512,2.37016c-0.14792,1.14208 -0.31992,2.27384 -0.51944,3.39528c-6.57728,-1.05264 -17.78824,-2.28416 -30.54376,-2.34608c-5.7276,9.90032 -17.9568,16.3572 -37.07288,17.11056v0.10664c8.944,0 17.2,13.416 17.2,22.704v18.576c0,2.83112 1.71312,5.2632 4.15896,6.31584c31.51384,-10.43008 54.32104,-40.15168 54.32104,-75.11584c0,-43.62608 -35.49048,-79.12 -79.12,-79.12c-43.62952,0 -79.12,35.49392 -79.12,79.12c0,34.96416 22.8072,64.68576 54.32104,75.11584z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
                     </div>
                 </div>
 
             </div>
         </div>
+
 
 
 
@@ -241,14 +266,6 @@
                 <h1 class="footer__name--name footer__element">
                     Tanishq Kr. Kaushal
                 </h1>
-            </div>
-            <div class="col-md footer__socials d-flex justify-content-center align-items-center p-2">
-                <a href="https://www.instagram.com/tanishqkrk/" target="_blank" class="footer__social"><img
-                        src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" /></a>
-                <a href="https://twitter.com/TanishqKaushal" target="_blank" class="footer__social"><img
-                        src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png" /></a>
-                <a href="https://www.linkedin.com/in/tanishq-kr-kaushal-835b0221b/" target="_blank"
-                    class="footer__social"><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" /></a>
             </div>
             <div class="col-md footer__copyright p-2">
                 <h5 class="footer__copyright--text footer__element">
