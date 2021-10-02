@@ -386,10 +386,12 @@ body {
         display: flex;
         justify-content: center;
         padding-top: 20px;
+        /* padding-right: 50px; */
+        padding-left: 50px;
     }
 
     .hero__banner__img {
-        width: 100%;
+        width: 80%;
     }
 
     .section--work {
@@ -399,6 +401,8 @@ body {
 
     .top-work {
         display: block !important;
+        padding: 50px;
+        text-align: center;
     }
 
     .bottom-work {
@@ -412,10 +416,12 @@ body {
         grid-template-columns: repeat(2);
         grid-template-rows: auto;
         grid-template-areas:
-            "wl wl mg"
-            "vc ps lg"
+            "wl wl"
+            "vc ps"
+            "mg mg"
+            "lg lg"
         ;
-        grid-gap: 20px;
+        grid-gap: 10px;
     }
 
 }
