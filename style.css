@@ -81,12 +81,12 @@ body {
     color: black;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 0px 30px white;
+    /* box-shadow: 0px 0px 30px white; */
 
 }
 
 .header__container__element {
-    text-shadow: 0px 0px 100px white;
+    /* text-shadow: 0px 0px 100px white; */
     text-align: center;
     text-decoration: none;
 }
@@ -108,7 +108,7 @@ body {
 
 .section__land-element:hover {
     color: white;
-    text-shadow: 0px 0px 10px white;
+    /* text-shadow: 0px 0px 10px white; */
     /* background: linear-gradient(180deg, hsla(0, 0%, 32%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
@@ -374,15 +374,16 @@ body {
     }
 
     .section__title--hero {
-        font-size: 30px;
+        font-size: 19px;
         /* text-align: center; */
     }
 
     .section__subtitle--hero {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .hero__banner {
+
         display: flex;
         justify-content: center;
         padding-top: 20px;
@@ -422,6 +423,16 @@ body {
             /* "lg lg" */
         ;
         grid-gap: 10px;
+
+
     }
 
+    .experience__job,
+    .experience__free,
+    .experience__intern {
+        /* border-right: 5px solid white; */
+        padding: 20px;
+
+        /* box-shadow: 0 0 5px white; */
+    }
 }
