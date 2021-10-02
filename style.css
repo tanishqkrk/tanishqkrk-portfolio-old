@@ -21,7 +21,7 @@ body {
 .section {
     /* border: 1px solid black; */
     /* border: 115 solid black; */
-    padding: 150px 0;
+    padding: 100px 0;
     /* display: flex; */
     /* flex-direction: column; */
     /* align-items: center; */
@@ -98,7 +98,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
     color: rgba(94, 94, 94, 0.514);
-    font-family: 'monument extended', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-weight: 900;
     font-size: 120px;
 
@@ -365,6 +365,12 @@ body {
 
 @media(max-width:900px) {
 
+    .container__fluid {
+        /* width: 0% */
+        /* margin: 0px; */
+        /* padding: 0px; */
+    }
+
     .section__title {
         font-size: 40px;
     }
@@ -379,12 +385,12 @@ body {
     }
 
     .section__title--hero {
-        font-size: 19px;
+        font-size: 30px;
         /* text-align: center; */
     }
 
     .section__subtitle--hero {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .hero__banner {
@@ -407,7 +413,7 @@ body {
 
     .top-work {
         display: block !important;
-        padding: 50px;
+        padding: 20px;
         text-align: center;
     }
 
