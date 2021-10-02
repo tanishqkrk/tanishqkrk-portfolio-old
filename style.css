@@ -345,7 +345,7 @@ body {
 
 @media (min-width:1200px) {
     .header__ham {
-        display: none;
+        display: none !important;
     }
 
 }
@@ -357,5 +357,10 @@ body {
 
     .header__ham {
         display: block;
+    }
+
+    .header__container {
+        width: 100%;
+        border: 1px solid white;
     }
 }
