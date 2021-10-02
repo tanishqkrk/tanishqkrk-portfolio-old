@@ -418,8 +418,8 @@ body {
         grid-template-areas:
             "wl wl"
             "vc ps"
-            "mg mg"
-            "lg lg"
+            "mg lg"
+            /* "lg lg" */
         ;
         grid-gap: 10px;
     }
