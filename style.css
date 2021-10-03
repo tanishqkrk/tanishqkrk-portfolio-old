@@ -334,6 +334,10 @@ body {
     /* border: 1px solid red; */
 }
 
+.ham-menu {
+    display: none;
+}
+
 @media (min-width:1200px) {
     .header__ham {
         display: none !important;
@@ -348,12 +352,31 @@ body {
 
     .header__ham {
         display: block;
+
+
     }
 
     .header {
         width: 100%;
         /* padding-top: 15px; */
         /* border: 1px solid white; */
+    }
+
+    .header__ham:hover>.ham-menu {
+        position: absolute;
+        display: block !important;
+        transition: .5s;
+    }
+
+    .ham-menu {
+        background-color: white;
+    }
+
+    .ham-menu-text {
+        /* background-color: white; */
+        padding: 2px;
+        color: black;
+        text-align: center;
     }
 
 }
