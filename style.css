@@ -362,7 +362,7 @@ body {
         /* border: 1px solid white; */
     }
 
-    .header__ham:hover>.ham-menu {
+    .ham-icon:hover+.ham-menu {
         position: absolute;
         display: block !important;
         transition: .5s;
