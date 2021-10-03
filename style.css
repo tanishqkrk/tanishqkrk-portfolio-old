@@ -8,6 +8,8 @@ body {
     font-family: 'montserrat', sans-serif;
     background-color: black;
     color: white;
+    scroll-behavior: smooth;
+
     /* overflow: hidden ; */
     /* font-family: 'Product Sans', sans-serif; */
 
