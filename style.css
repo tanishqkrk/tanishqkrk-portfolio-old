@@ -340,6 +340,12 @@ body {
     display: none;
 }
 
+.contact-icon {
+    /* background-color: white; */
+    /* color: white; */
+}
+
+
 @media (min-width:1200px) {
     .header__ham {
         display: none !important;
@@ -380,6 +386,13 @@ body {
         padding: 2px;
         color: black;
         text-align: center;
+    }
+
+    .ham-menu-text:hover {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        border-radius: 5px;
     }
 
 }
