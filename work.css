@@ -1,3 +1,44 @@
 body {
     background-color: black;
 }
+
+.img {
+    width: 100%;
+    transition: .5s;
+}
+
+.img:hover {
+    transform: scale(.9);
+    /* opacity: .8; */
+}
+
+.wallpaper {
+    display: flex;
+}
+
+.magazine-gal {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll
+}
+
+.title-work {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.section-title {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+
+.gallery-logos,
+.gallery-wallpaper,
+.gallery-vectors,
+.gallery-magazine,
+.gallery-posters {
+    padding: 50px 0;
+}
